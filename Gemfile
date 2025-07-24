@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '>= 3.1', '< 3.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 7.1.3'
+gem 'rails', '~> 7.1.3', '>= 7.1.3.3'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.5.6'
 # Use SCSS for stylesheets
@@ -21,7 +21,7 @@ gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder'
+gem 'jbuilder', '>= 2.13.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc',          group: :doc
 
